@@ -14,6 +14,7 @@
 		46E6BB2F1C3224D40043FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB2E1C3224D40043FAAD /* Assets.xcassets */; };
 		46E6BB321C3224D40043FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB301C3224D40043FAAD /* LaunchScreen.storyboard */; };
 		46E6BB3E1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */; };
+		46E6BB401C322B8A0043FAAD /* MyriadPro-BlackSemiCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB3F1C322B8A0043FAAD /* MyriadPro-BlackSemiCnIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		46E6BB311C3224D40043FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46E6BB331C3224D40043FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-LightSemiExtIt.otf"; sourceTree = "<group>"; };
+		46E6BB3F1C322B8A0043FAAD /* MyriadPro-BlackSemiCnIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-BlackSemiCnIt.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		46E6BB211C3224D40043FAAD /* CustomerFont */ = {
 			isa = PBXGroup;
 			children = (
+				46E6BB3F1C322B8A0043FAAD /* MyriadPro-BlackSemiCnIt.otf */,
 				46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */,
 				46E6BB251C3224D40043FAAD /* AppDelegate.h */,
 				46E6BB261C3224D40043FAAD /* AppDelegate.m */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E6BB321C3224D40043FAAD /* LaunchScreen.storyboard in Resources */,
+				46E6BB401C322B8A0043FAAD /* MyriadPro-BlackSemiCnIt.otf in Resources */,
 				46E6BB2F1C3224D40043FAAD /* Assets.xcassets in Resources */,
 				46E6BB2D1C3224D40043FAAD /* Main.storyboard in Resources */,
 				46E6BB3E1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf in Resources */,

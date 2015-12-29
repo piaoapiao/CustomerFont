@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>MyriadPro-BlackSemiCnIt.otf</string>
 		<string>MyriadPro-LightSemiExtIt.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

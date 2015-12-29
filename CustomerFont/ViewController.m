@@ -17,9 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];    
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    label.font = [UIFont fontWithName:@"Myriad Pro" size:20];
+    //label.font = [UIFont fontWithName:@"Myriad Pro" size:20];
+    label.font = [UIFont fontWithName:@"MyriadPro-BlackSemiCnIt" size:20];
+   
+   //MyriadPro-BlackSemiCnIt
     label.text = @"9.99%";
     [self.view addSubview:label];
+    
+    NSLog (@"Font families: %@", [UIFont fontNamesForFamilyName:@"Myriad Pro"]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
