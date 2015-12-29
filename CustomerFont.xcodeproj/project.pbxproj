@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46E6BB241C3224D40043FAAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E6BB231C3224D40043FAAD /* main.m */; };
+		46E6BB271C3224D40043FAAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E6BB261C3224D40043FAAD /* AppDelegate.m */; };
+		46E6BB2A1C3224D40043FAAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E6BB291C3224D40043FAAD /* ViewController.m */; };
+		46E6BB2D1C3224D40043FAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB2B1C3224D40043FAAD /* Main.storyboard */; };
+		46E6BB2F1C3224D40043FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB2E1C3224D40043FAAD /* Assets.xcassets */; };
+		46E6BB321C3224D40043FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB301C3224D40043FAAD /* LaunchScreen.storyboard */; };
+		46E6BB3E1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46E6BB1F1C3224D40043FAAD /* CustomerFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomerFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E6BB231C3224D40043FAAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46E6BB251C3224D40043FAAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46E6BB261C3224D40043FAAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46E6BB281C3224D40043FAAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46E6BB291C3224D40043FAAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46E6BB2C1C3224D40043FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E6BB2E1C3224D40043FAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E6BB311C3224D40043FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46E6BB331C3224D40043FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-LightSemiExtIt.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E6BB1C1C3224D40043FAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E6BB161C3224D40043FAAD = {
+			isa = PBXGroup;
+			children = (
+				46E6BB211C3224D40043FAAD /* CustomerFont */,
+				46E6BB201C3224D40043FAAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E6BB201C3224D40043FAAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E6BB1F1C3224D40043FAAD /* CustomerFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E6BB211C3224D40043FAAD /* CustomerFont */ = {
+			isa = PBXGroup;
+			children = (
+				46E6BB3D1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf */,
+				46E6BB251C3224D40043FAAD /* AppDelegate.h */,
+				46E6BB261C3224D40043FAAD /* AppDelegate.m */,
+				46E6BB281C3224D40043FAAD /* ViewController.h */,
+				46E6BB291C3224D40043FAAD /* ViewController.m */,
+				46E6BB2B1C3224D40043FAAD /* Main.storyboard */,
+				46E6BB2E1C3224D40043FAAD /* Assets.xcassets */,
+				46E6BB301C3224D40043FAAD /* LaunchScreen.storyboard */,
+				46E6BB331C3224D40043FAAD /* Info.plist */,
+				46E6BB221C3224D40043FAAD /* Supporting Files */,
+			);
+			path = CustomerFont;
+			sourceTree = "<group>";
+		};
+		46E6BB221C3224D40043FAAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E6BB231C3224D40043FAAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E6BB1E1C3224D40043FAAD /* CustomerFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E6BB361C3224D40043FAAD /* Build configuration list for PBXNativeTarget "CustomerFont" */;
+			buildPhases = (
+				46E6BB1B1C3224D40043FAAD /* Sources */,
+				46E6BB1C1C3224D40043FAAD /* Frameworks */,
+				46E6BB1D1C3224D40043FAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomerFont;
+			productName = CustomerFont;
+			productReference = 46E6BB1F1C3224D40043FAAD /* CustomerFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E6BB171C3224D40043FAAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nonobank;
+				TargetAttributes = {
+					46E6BB1E1C3224D40043FAAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46E6BB1A1C3224D40043FAAD /* Build configuration list for PBXProject "CustomerFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E6BB161C3224D40043FAAD;
+			productRefGroup = 46E6BB201C3224D40043FAAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E6BB1E1C3224D40043FAAD /* CustomerFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E6BB1D1C3224D40043FAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E6BB321C3224D40043FAAD /* LaunchScreen.storyboard in Resources */,
+				46E6BB2F1C3224D40043FAAD /* Assets.xcassets in Resources */,
+				46E6BB2D1C3224D40043FAAD /* Main.storyboard in Resources */,
+				46E6BB3E1C3227E70043FAAD /* MyriadPro-LightSemiExtIt.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E6BB1B1C3224D40043FAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E6BB2A1C3224D40043FAAD /* ViewController.m in Sources */,
+				46E6BB271C3224D40043FAAD /* AppDelegate.m in Sources */,
+				46E6BB241C3224D40043FAAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46E6BB2B1C3224D40043FAAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E6BB2C1C3224D40043FAAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46E6BB301C3224D40043FAAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E6BB311C3224D40043FAAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46E6BB341C3224D40043FAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46E6BB351C3224D40043FAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E6BB371C3224D40043FAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomerFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nonobank.nonobank.CustomerFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46E6BB381C3224D40043FAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomerFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nonobank.nonobank.CustomerFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E6BB1A1C3224D40043FAAD /* Build configuration list for PBXProject "CustomerFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6BB341C3224D40043FAAD /* Debug */,
+				46E6BB351C3224D40043FAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E6BB361C3224D40043FAAD /* Build configuration list for PBXNativeTarget "CustomerFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6BB371C3224D40043FAAD /* Debug */,
+				46E6BB381C3224D40043FAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E6BB171C3224D40043FAAD /* Project object */;
+}
